@@ -65,6 +65,7 @@ body {
 }
 
 .input::placeholder {
+  font-family: Avenir, serif;
   color: #3d4e61;
   font-weight: 400;
 }
@@ -77,7 +78,7 @@ body {
 .input:focus {
   background: linear-gradient(180deg, #fff 0%, #f6f6f7 100%);
 
-  text-shadow: 0 4px 4px 0.25;
+  text-shadow: #3d4e6125 0 4px 4px;
   font-weight: bold;
   outline: none;
 }
